@@ -1,0 +1,4 @@
+scenario,monthly_budget_inr,availability_target,latency_p95_ms,rpo_minutes,rto_minutes,expected_users,architecture_notes,tradeoff
+Lean,2500,99.0,800,1440,240,500,Single region minimal managed services,Lowest cost with slower recovery
+Balanced,8000,99.5,500,60,60,5000,Managed database plus autoscaling application tier,Balanced reliability and cost
+Resilient,25000,99.9,300,15,30,25000,Multi-zone services with tested backups,Higher cost for stronger continuity
